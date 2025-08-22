@@ -7,6 +7,6 @@
 # All modules have its simulation file and testbench.
 # Whether the actual use of the module meets the requirements needs to consider the FPGA platform layout and routing.
 
-##################################################################################
-# Any issures can leave a comment below or contact me via email, thank you.(Email : 1871462453@qq.com)
-##################################################################################
+####################################################################################
+# Any issures can leave a comment below or contact me via email, thank you.(Email : 1871462453@qq.com)  #
+####################################################################################
