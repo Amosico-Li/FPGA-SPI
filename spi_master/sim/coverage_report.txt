@@ -1,0 +1,409 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb/spi_master_inst
+=== Design Unit: work.spi_master_debug
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        63        62         1    98.41%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb/spi_master_inst
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../spi_master_debug.sv
+------------------------------------IF Branch------------------------------------
+    63                                      5001     Count coming in to IF
+    63              1                          1     
+    65              1                       4750     
+    67              1                        250     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    72                                      1018     Count coming in to IF
+    72              1                          1     
+    74              1                        503     
+    78              1                        514     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    75                                       503     Count coming in to IF
+    75              1                        251     
+                                             252     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    84                                      1017     Count coming in to IF
+    84              1                          1     
+    86              1                        101     
+    88              1                          8     
+                                             907     All False Count
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    93                                      1005     Count coming in to IF
+    93              1                        417     
+    93              2                        588     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    94                                      1005     Count coming in to IF
+    94              1                        417     
+    94              2                        588     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    97                                       540     Count coming in to IF
+    97              1                          1     
+    99              1                         16     
+    101             1                        125     
+                                             398     All False Count
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    106                                      531     Count coming in to IF
+    106             1                          1     
+    108             1                         15     
+    110             1                        515     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    115                                       47     Count coming in to IF
+    115             1                          1     
+    117             1                         15     
+    119             1                         31     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    125                                      809     Count coming in to IF
+    125             1                          1     
+    127             1                         16     
+    129             1                        125     
+                                             667     All False Count
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    130                                      125     Count coming in to IF
+    130             1                         61     
+    132             1                         64     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    138                                      157     Count coming in to IF
+    138             1                          1     
+    140             1                         15     
+                                             141     All False Count
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    150                                      558     Count coming in to IF
+    150             1                          1     
+    152             1                         16     
+    154             1                        129     
+                                             412     All False Count
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    155                                      129     Count coming in to IF
+    155             1                         63     
+    157             1                         66     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    163                                      652     Count coming in to IF
+    163             1                          1     
+    165             1                         16     
+    171             1                        129     
+                                             506     All False Count
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    166                                       16     Count coming in to IF
+    166             1                          8     
+    168             1                          8     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    172                                      129     Count coming in to IF
+    172             1                         63     
+    174             1                         66     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    182                                       48     Count coming in to IF
+    182             1                          1     
+    184             1                         47     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    189                                     1035     Count coming in to IF
+    189             1                          2     
+    192             1                       1033     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    193                                     1033     Count coming in to CASE
+    194             1                        483     
+    200             1                         16     
+    206             1                        534     
+                                         ***0***     All False Count
+Branch totals: 3 hits of 4 branches = 75.00%
+
+------------------------------------IF Branch------------------------------------
+    195                                      483     Count coming in to IF
+    195             1                          8     
+    197             1                        475     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    201                                       16     Count coming in to IF
+    201             1                          8     
+    203             1                          8     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    207                                      534     Count coming in to IF
+    207             1                          7     
+    209             1                        527     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      22        22         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb/spi_master_inst --
+
+  File ../spi_master_debug.sv
+----------------Focused Condition View-------------------
+Line       65 Item    1  (ccnt < (20 - 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       74 Item    1  ((state == 4) & (bcnt != 8))
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       75 Item    1  (edge_1 | edge_2)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       86 Item    1  ((bcnt == 8) && edge_2)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       88 Item    1  ((state == 2) && edge_1)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       101 Item    1  (edge_1 & (state == 4))
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       108 Item    1  ((bcnt == (8 - 1)) && edge_1)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       129 Item    1  (rd_edge && (state == 4) && (bcnt != 8))
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       154 Item    1  ((state == 4) && rd_edge)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       171 Item    1  ((state == 4) && wr_edge)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       207 Item    1  ((bcnt == 8) && edge_2)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      8         8         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb/spi_master_inst --
+
+  File ../spi_master_debug.sv
+----------------Focused Expression View-----------------
+Line       59 Item    1  (ccnt == 0)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       60 Item    1  (ccnt == (20 / 2))
+Expression totals: 1 of 1 input term covered = 100.00%
+
+-----------Focused Expression View (Bimodal)------------
+Line       93 Item    1  (cpha? edge_2: edge_1)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+-----------Focused Expression View (Bimodal)------------
+Line       94 Item    1  (cpha? edge_1: edge_2)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       3         3         0   100.00%
+    FSM Transitions                  4         3         1    75.00%
+
+================================FSM Details================================
+
+FSM Coverage for instance /tb/spi_master_inst --
+
+FSM_ID: state
+    Current State Object : state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+ 194                IDLE                   1
+ 200               ALIGN                   2
+ 206               TRANS                   4
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    IDLE                  16          
+                   ALIGN                  16          
+                   TRANS                  16          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 196                   0                   8          IDLE -> ALIGN                 
+ 202                   1                   8          ALIGN -> TRANS                
+ 208                   3                   7          TRANS -> IDLE                 
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+ 183                   2          ALIGN -> IDLE       
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   3         3         0   100.00%
+        FSM Transitions              4         3         1    75.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      58        58         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb/spi_master_inst --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../spi_master_debug.sv
+    59              1                       5002     
+    60              1                       5002     
+    62              1                       5001     
+    64              1                          1     
+    66              1                       4750     
+    68              1                        250     
+    71              1                       1018     
+    73              1                          1     
+    76              1                        251     
+    79              1                        514     
+    83              1                       1017     
+    85              1                          1     
+    87              1                        101     
+    89              1                          8     
+    93              1                       1006     
+    94              1                       1006     
+    96              1                        540     
+    98              1                          1     
+    100             1                         16     
+    102             1                        125     
+    105             1                        531     
+    107             1                          1     
+    109             1                         15     
+    111             1                        515     
+    114             1                         47     
+    116             1                          1     
+    118             1                         15     
+    120             1                         31     
+    124             1                        809     
+    126             1                          1     
+    128             1                         16     
+    131             1                         61     
+    133             1                         64     
+    137             1                        157     
+    139             1                          1     
+    141             1                         15     
+    149             1                        558     
+    151             1                          1     
+    153             1                         16     
+    156             1                         63     
+    158             1                         66     
+    162             1                        652     
+    164             1                          1     
+    167             1                          8     
+    169             1                          8     
+    173             1                         63     
+    175             1                         66     
+    181             1                         48     
+    183             1                          1     
+    185             1                         47     
+    188             1                       1035     
+    190             1                          2     
+    196             1                          8     
+    198             1                        475     
+    202             1                          8     
+    204             1                          8     
+    208             1                          7     
+    210             1                        527     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        220       121        99    55.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb/spi_master_inst --
+
+                                              Node      1H->0L      0L->1H       0L->Z       Z->0L       1H->Z       Z->H1     ExtMode  "Coverage"
+                                              ---------------------------------------------------------------------------------------------------
+                                           bcnt[4]           0           0           0           0           0           0           3        0.00 
+                                        ccnt[15-5]           0           0           0           0           0           0           3        0.00 
+                                              cpol           0           1           0           0           0           0           3       16.66 
+                                             rst_n           0           1           0           0           0           0           3       16.66 
+                                          wdata[0]           0           0           0           0           0           0           3        0.00 
+                                          wdata[4]           0           1           0           0           0           0           3       16.66 
+                                          wdata[7]           0           0           0           0           0           0           3        0.00 
+
+========
+(n*) - Number was not used in coverage calculations performed by extended toggle algorithms.
+
+Extended Toggle Coverage Calculation Criteria:
+-----------------------------------------------
+	ExtMode 1: 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z').
+	ExtMode 2: 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'.
+	ExtMode 3: 0L->1H & 1H->0L & all 'Z' transitions.
+========
+
+Total Node Count     =         76 
+Toggled Node Count   =         59 
+Untoggled Node Count =         17 
+
+Toggle Coverage      =      55.00% (121 of 220 bins)
+
+
+Total Coverage By Instance (filtered view): 89.77%
+

@@ -1,0 +1,147 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Embedded/Software/Modelsim_Proj/SPI/spi_master
+Tdebug
+!s110 1755659559
+VGF<Z]m:4Yk6SSNl@=W]@U0
+04 2 4 work tb fast 0
+o-O0
+Z1 tCvgOpt 0
+ndebug
+OL;O;2020.4;71
+vedge_detector
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1755659558
+!i10b 1
+!s100 <YC;PCCOAUG6=9WmLeDHe0
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@C4Y20k9kGNCz]L]1dnSR3
+S1
+Z5 dD:/Embedded/FPGA/CP/spi/spi_master/sim
+w1755163562
+8../../cbb/edge_detector/edge_detector.sv
+F../../cbb/edge_detector/edge_detector.sv
+!i122 306
+L0 1 31
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1755659558.000000
+!s107 ../../cbb/edge_detector/edge_detector.sv|
+!s90 -reportprogress|300|-work|work|+acc|../../cbb/edge_detector/edge_detector.sv|
+!i113 0
+Z9 o-work work +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmoduleName
+R2
+!s110 1754914676
+!i10b 1
+!s100 G7EVXTSH;1:eXRL[c12A30
+R4
+IHN]F`UJ>LV=Thg@jYe7MY2
+S1
+R0
+w1754914669
+8./spi_master.sv
+F./spi_master.sv
+!i122 0
+L0 1 41
+R6
+R7
+r1
+!s85 0
+31
+!s108 1754914676.000000
+!s107 ./spi_master.sv|
+!s90 -reportprogress|300|-work|work|+acc|./spi_master.sv|
+!i113 0
+R9
+R1
+nmodule@name
+vspi_master
+R2
+!s110 1755592400
+!i10b 1
+!s100 ^U9leI4D?7eVU0FD0aU<31
+R4
+IRzZi1nk]E9Z_QZ?g;zkXD2
+S1
+R5
+w1755592385
+8../spi_master.sv
+F../spi_master.sv
+!i122 295
+L0 12 211
+R6
+R7
+r1
+!s85 0
+31
+!s108 1755592400.000000
+!s107 ../spi_master.sv|
+!s90 -reportprogress|300|-work|work|+acc|../spi_master.sv|+cover=bcesxf|
+!i113 0
+Z10 !s102 +cover=bcesxf
+Z11 o-work work +acc +cover=bcesxf -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vspi_master_debug
+R2
+R3
+!i10b 1
+!s100 S:^gnJnzORS`caT158hhD2
+R4
+I0?jV4UCoZAVBgdb1l30l[0
+S1
+R5
+w1755659531
+8../spi_master_debug.sv
+F../spi_master_debug.sv
+!i122 305
+L0 9 211
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 ../spi_master_debug.sv|
+!s90 -reportprogress|300|-work|work|+acc|../spi_master_debug.sv|+cover=bcesxf|
+!i113 0
+R10
+R11
+R1
+vtb
+R2
+R3
+!i10b 1
+!s100 BcWN9AJBinc0P=AEe9S8^0
+R4
+I:^QVVfZ?<ghO]4<oU[AoK2
+S1
+R5
+w1755593485
+8./tb.sv
+F./tb.sv
+!i122 307
+L0 2 113
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 ./tb.sv|
+!s90 -reportprogress|300|-work|work|+acc|./tb.sv|
+!i113 0
+R9
+R1
