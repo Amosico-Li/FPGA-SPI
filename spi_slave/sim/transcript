@@ -1,0 +1,862 @@
+# Reading pref.tcl
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:14:50 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 09:14:50 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:14:50 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 09:14:50 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:14:50 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 09:14:50 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:14:50 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:14:50 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 09:14:50 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found 3 design-units (out of 4) may be reused.
+# Optimizing 1 design-unit (inlining 0/4 module instances):
+# -- Optimizing module tb(fast)
+# Optimized design name is debug
+# End time: 09:14:51 on Aug 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 09:14:51 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fa# End time: 09:16:15 on Aug 22,2025, Elapsed time: 15:49:51
+# Errors: 0, Warnings: 0
+ntly in use: vsim.wlf
+#           File in use by: 18714  Hostname: LAPTOP-J4HMKPSS  ProcessID: 8768
+#           Attempting to use alternate WLF file "./wlftr7w3cw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftr7w3cw
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 52500 ns
+do sim.do
+# End time: 09:16:21 on Aug 22,2025, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:16:21 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 09:16:21 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:16:21 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 09:16:21 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:16:21 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 09:16:21 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:16:22 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:16:22 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 09:16:22 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found 3 design-units (out of 4) may be reused.
+# Optimizing 1 design-unit (inlining 0/4 module instances):
+# -- Optimizing module tb(fast)
+# Optimized design name is debug
+# End time: 09:16:22 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 09:16:22 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 52500 ns
+# Causality operation skipped due to absence of debug database file
+do sim.do
+# End time: 09:22:57 on Aug 22,2025, Elapsed time: 0:06:35
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:22:57 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 09:22:57 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:22:57 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 09:22:57 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:22:57 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 09:22:57 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:22:57 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:22:57 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 09:22:57 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found 3 design-units (out of 4) may be reused.
+# Optimizing 1 design-unit (inlining 0/4 module instances):
+# -- Optimizing module tb(fast)
+# Optimized design name is debug
+# End time: 09:22:57 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 09:22:57 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 52500 ns
+do sim.do
+# End time: 09:24:29 on Aug 22,2025, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:24:29 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 09:24:29 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:24:29 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 09:24:29 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:24:29 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 09:24:29 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:24:29 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:24:29 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 09:24:29 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found 2 design-units (out of 4) may be reused.
+# Optimizing 2 design-units (inlining 0/4 module instances):
+# -- Optimizing module spi_master_debug(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "spi_master_debug(fast)".
+# -- Optimizing module tb(fast)
+# Optimized design name is debug
+# End time: 09:24:29 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 09:24:29 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 52500 ns
+do sim.do
+# End time: 09:27:18 on Aug 22,2025, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:27:18 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 09:27:18 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:27:18 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 09:27:18 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:27:18 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 09:27:18 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:27:18 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:27:19 on Aug 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 09:27:19 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found no design-units have changed.
+# Optimized design name is debug
+# End time: 09:27:19 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 09:27:19 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 52500 ns
+do sim.do
+# End time: 09:31:07 on Aug 22,2025, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:31:07 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 09:31:07 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:31:07 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 09:31:07 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:31:07 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 09:31:07 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:31:07 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:31:07 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 09:31:07 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found 3 design-units (out of 4) may be reused.
+# Optimizing 1 design-unit (inlining 0/4 module instances):
+# -- Optimizing module tb(fast)
+# Optimized design name is debug
+# End time: 09:31:08 on Aug 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 09:31:08 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 52500 ns
+do sim.do
+# End time: 09:34:03 on Aug 22,2025, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:34:03 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 09:34:03 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:34:03 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 09:34:03 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:34:03 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 09:34:03 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:34:03 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:34:03 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 09:34:03 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found 3 design-units (out of 4) may be reused.
+# Optimizing 1 design-unit (inlining 0/4 module instances):
+# -- Optimizing module tb(fast)
+# Optimized design name is debug
+# End time: 09:34:04 on Aug 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 09:34:04 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 52500 ns
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do sim.do
+# End time: 09:59:17 on Aug 22,2025, Elapsed time: 0:25:13
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:59:17 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 09:59:17 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:59:17 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 09:59:17 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:59:17 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 09:59:17 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:59:17 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:59:17 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 09:59:17 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found no design-units have changed.
+# Optimized design name is debug
+# End time: 09:59:18 on Aug 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 09:59:18 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 52500 ns
+do sim.do
+# End time: 10:00:01 on Aug 22,2025, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:00:01 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 10:00:01 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:00:01 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 10:00:01 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:00:01 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 10:00:01 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:00:01 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:00:01 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 10:00:02 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found 3 design-units (out of 4) may be reused.
+# Optimizing 1 design-unit (inlining 0/4 module instances):
+# -- Optimizing module spi_slave_debug(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "spi_slave_debug(fast)".
+# Optimized design name is debug
+# End time: 10:00:02 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 10:00:02 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# ** UI-Msg: (vish-4014) No objects found matching 'tb/spi_slave_inst/mosi_dly[2]'.
+# Error in macro ./sim.do line 91
+# ** UI-Msg: (vish-4014) No objects found matching 'tb/spi_slave_inst/mosi_dly[2]'.
+#     while executing
+# "add wave -color grey50 -group Slave_Inner -label nss_dly                       tb/spi_slave_inst/nss_dly"
+do sim.do
+# End time: 10:00:48 on Aug 22,2025, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:00:48 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 10:00:48 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:00:48 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 10:00:48 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:00:48 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 10:00:48 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:00:48 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:00:48 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 10:00:48 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found no design-units have changed.
+# Optimized design name is debug
+# End time: 10:00:48 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 10:00:48 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# ** UI-Msg: (vish-4014) No objects found matching 'tb/spi_slave_inst/mosi_dly[2]'.
+# Error in macro ./sim.do line 91
+# ** UI-Msg: (vish-4014) No objects found matching 'tb/spi_slave_inst/mosi_dly[2]'.
+#     while executing
+# "add wave -color grey50 -group Slave_Inner -label nss_dly                       tb/spi_slave_inst/nss_dly"
+do sim.do
+# End time: 10:01:13 on Aug 22,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:01:13 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../spi_master/spi_master_debug.sv 
+# -- Compiling module spi_master_debug
+# 
+# Top level modules:
+# 	spi_master_debug
+# End time: 10:01:13 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:01:13 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../spi_slave_debug.sv 
+# -- Compiling module spi_slave_debug
+# 
+# Top level modules:
+# 	spi_slave_debug
+# End time: 10:01:13 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:01:14 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ../../cbb/edge_detector/edge_detector.sv 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 10:01:14 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:01:14 on Aug 22,2025
+# vlog -reportprogress 300 -work work "+acc" ./tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:01:14 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vopt 2020.4 Compiler 2020.10 Oct 13 2020
+# ** Warning: (vopt-14005) Vopt is compiled with optimization level -O0 or -O1. The simulation might run slowly.
+# Start time: 10:01:14 on Aug 22,2025
+# vopt -reportprogress 300 work.tb -O0 -o debug 
+# 
+# Top level modules:
+# 	tb
+# 
+# Analyzing design...
+# -- Loading module tb
+# -- Loading module spi_master_debug
+# -- Loading module edge_detector
+# -- Loading module spi_slave_debug
+# Incremental compilation check found no design-units have changed.
+# Optimized design name is debug
+# End time: 10:01:14 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim debug -fsmdebug 
+# Start time: 10:01:14 on Aug 22,2025
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.spi_master_debug(fast)
+# Loading work.edge_detector(fast)
+# Loading work.spi_slave_debug(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 52500 ns
